@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
+  background-attachment:scroll;
 }
 
 
@@ -292,6 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    background-attachment:fixed;
   }
   .whatsapp{
     width: 60%;
