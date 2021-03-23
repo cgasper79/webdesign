@@ -268,6 +268,11 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment:scroll;
 }
 
+.titulo{
+  position:relative;
+  bottom: 20%;
+  right: 2%;
+}
 
 .whatsapp_contain{
   width: min-content;
